@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>時間割</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            padding: 16px 0;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .table-container {
+            overflow-x: auto;
+            margin: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed; /* 列幅を固定してテキストを折り返す */
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 8px;
+            white-space: normal; /* 自動改行を有効化 */
+            overflow-wrap: break-word; /* 長い単語を折り返す */
+        }
+        th {
+            background-color: #f4f4f4;
+            font-size: 16px;
+        }
+        .subject {
+            color: #00008b; /* 深い青 */
+            cursor: pointer;
+        }
+        .room {
+            color: #eb8b16; /* オレンジ */
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            th, td {
+                font-size: 12px;
+                padding: 6px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>時間割</h1>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>月</th>
+<th>火</th>
+<th>水</th>
+<th>木</th>
+<th>金</th>
+<th>土</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2234009400" title="シラバス">精神疾患</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12176" title="Moodle">302教室</a>
+</td>
+<td></td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2283000100" title="シラバス">遊戯療法</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12585" title="Moodle">308教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2292004404" title="シラバス">応用ゼミ</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12603" title="Moodle">306教室</a>
+</td>
+<td></td>
+</tr>
+<tr>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=1014000405" title="シラバス">英語ⅣA</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12240" title="Moodle">402教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2232027700" title="シラバス">障害者・障害児</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12481" title="Moodle">302教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2252004500" title="シラバス">認知行動療法</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12173" title="Moodle">302教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2232028700" title="シラバス">心理的アセスメント</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12485" title="Moodle">301教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2232018100" title="シラバス">社会心理学</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12477" title="Moodle">多目的ホール</a>
+</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2215003900" title="シラバス">応用実習</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12168" title="Moodle">307教室</a>
+</td>
+<td></td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2232028300" title="シラバス">心理学実験</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12483" title="Moodle">402教室</a>
+</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2232031900" title="シラバス">司法・犯罪</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12174" title="Moodle">302教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2215003900" title="シラバス">応用実習</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12168" title="Moodle">307教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2231002800" title="シラバス">産業・組織</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12468" title="Moodle">301教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&amp;value(semekikn)=1&amp;value(kougicd)=2232028300" title="シラバス">心理学実験</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12483" title="Moodle">402教室</a>
+</td>
+<td>
+<a class="subject" href="https://newportal.sgu.ac.jp/campusweb/slbssbdr.do?value(risyunen)=2024&value(semekikn)=1&value(kougicd)=1014000856" title="シラバス">英語ⅣB</a><br/>
+<a class="room" href="https://moodle.sgu.ac.jp/course/view.php?id=12297" title="Moodle">遠隔</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
